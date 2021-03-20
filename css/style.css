@@ -7,6 +7,10 @@ body {
     background-color: hsl(195, 100%, 7%);
 }
 
+.body{
+    margin: 0;
+}
+
 .logo {
     margin: 0;
     position: relative;
@@ -195,7 +199,6 @@ a:hover:after {
     position: absolute;
     overflow: hidden;
     color: rgb(125, 0, 197);
-    width: 100%;
     z-index: 5;
     text-shadow: none;
     left: 39.6%;
