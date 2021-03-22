@@ -214,7 +214,7 @@ a:hover:after {
     color: rgb(125, 0, 197);
     z-index: 5;
     text-shadow: none;
-    left: 39.6%;
+    left: 39.8%;
     text-align: left;
     animation: flicker 3s linear infinite;
     top: 2%;
