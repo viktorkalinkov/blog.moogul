@@ -48,7 +48,7 @@ body {
     position: relative;
     width: 80%;
     display: table;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
@@ -62,10 +62,9 @@ body {
     text-align: center;
     width: 15%;
     height: 100px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 60px;
     border-radius: 30px;
     background-color: #1a3e5e;
 }
@@ -175,18 +174,17 @@ li {
     padding: 15px 0;
 }
 
-a {
+.navigation_options {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 0.15em;
-
     display: inline-block;
     padding: 15px 20px;
     position: relative;
 }
 
-a:after {
+.navigation_options:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -199,9 +197,12 @@ a:after {
     width: 0;
 }
 
-a:hover:after {
+.navigation_options:hover:after {
     width: 100%;
     left: 0;
+}
+
+.towebsite{
 }
 
 .card {
