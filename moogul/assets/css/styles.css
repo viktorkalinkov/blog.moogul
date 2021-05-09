@@ -167,6 +167,16 @@ a {
   color: #A400D4;
 }
 
+.thread{
+  position: relative;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.btn-create{
+  font-size: 25px;
+}
+
 /*Show navbar movil*/
 .show {
   left: 0;
@@ -301,10 +311,7 @@ a {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 240px 240px 0px 0px;
 }
-
-
 
 .about-section {
   padding: 50px;
@@ -370,7 +377,7 @@ li {
 
 .idk{
   text-align: center;
-  margin: 40px 30px 0px 45px;
+  margin: 40px 30px 0px 22px;
   display: block;
   color:#FFFFFF;
   font-size: 35px;
@@ -379,7 +386,7 @@ li {
 
 iframe {
   border-radius: 5%;
-  margin: 40px 0px 0px 22gipx;
+  margin: 40px 0px 0px 22px;
   height: 300px;
   width: 400px;
   display: block;
@@ -391,6 +398,8 @@ iframe {
   height:600px;
   width: 700px;
   display: block;
+  margin-top: 85px;
+  margin: 0 auto;
 }
 
 /* ===Assignements icon and text=*/
